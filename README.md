@@ -2,27 +2,34 @@
 
 ## Question 1: AI Lab Question System - Unique Question Generation & Digital Assessment
 
-![AI Lab Question System Banner](https://via.placeholder.com/800x300/6366f1/ffffff?text=AI+Lab+Question+System)
+![AI Lab Question System Banner](Dashboard.png)
 
 An intelligent platform designed to revolutionize laboratory education through AI-powered question generation, student management, and automated evaluation. Perfect for educators looking to create unique, equivalent lab questions and streamline the assessment process.
 
 ### 📸 System Screenshots
 
 #### Teacher Dashboard
-![Teacher Dashboard](https://via.placeholder.com/600x400/8b5cf6/ffffff?text=Teacher+Dashboard+Interface)
+![Teacher Dashboard](Dashboard.png)
+
 *Advanced question generation interface with AI-powered variations*
 
 #### Student Portal
-![Student Portal](https://via.placeholder.com/600x400/06b6d4/ffffff?text=Student+Assignment+Portal)
+![Student Portal](Student%20Portal.png)
+
 *Clean and intuitive student interface for question access and submission*
 
-#### Analytics Dashboard
-![Analytics Dashboard](https://via.placeholder.com/600x400/10b981/ffffff?text=Analytics+%26+Performance+Dashboard)
+#### Generated Questions
+![Generated Questions](Genarated%20Question.png)
+
+*AI-powered question generation with unique variations*
+
+#### Student Management
+![Student Management](Student.png)
 *Comprehensive analytics and progress tracking system*
 
 ### 🌟 Features
 
-![Features Overview](https://via.placeholder.com/700x400/f59e0b/ffffff?text=AI-Powered+Features+Overview)
+![Features Overview](Genarated%20Question.png)
 
 #### 🎯 AI-Powered Question Generation
 - **Intelligent Variations**: Generate 4 unique but equivalent variations of any lab question
@@ -30,7 +37,7 @@ An intelligent platform designed to revolutionize laboratory education through A
 - **Smart Categories**: Organize questions by subject, difficulty, and category
 - **Uniqueness Scoring**: AI-powered assessment of question uniqueness
 
-![Question Generation Process](https://via.placeholder.com/600x300/ec4899/ffffff?text=Question+Generation+AI+Process)
+![Question Generation Process](Genarated%20Question.png)
 *AI-powered question variation generation workflow*
 
 #### 👥 Student Management
@@ -55,7 +62,7 @@ An intelligent platform designed to revolutionize laboratory education through A
 
 ### 🚀 Technology Stack
 
-![Technology Stack](https://via.placeholder.com/700x400/ef4444/ffffff?text=Modern+Tech+Stack+Architecture)
+![Technology Stack](Dashboard.png)
 *Cutting-edge technology stack powering the AI Lab Question System*
 
 - **Frontend**: Next.js 15, React 19, TypeScript
@@ -67,7 +74,7 @@ An intelligent platform designed to revolutionize laboratory education through A
 
 ### 📁 Project Structure
 
-![Project Architecture](https://via.placeholder.com/600x400/6366f1/ffffff?text=Project+Structure+%26+Architecture)
+![Project Architecture](Student.png)
 *Clean and organized project structure for scalability*
 
 ```
@@ -88,7 +95,7 @@ An intelligent platform designed to revolutionize laboratory education through A
 
 ### 🎓 How It Works
 
-![System Workflow](https://via.placeholder.com/800x500/3b82f6/ffffff?text=AI+Lab+System+Workflow+Diagram)
+![System Workflow](Student%20Portal.png)
 *Complete system workflow from question creation to student evaluation*
 
 #### For Educators (Teacher View)
@@ -97,7 +104,7 @@ An intelligent platform designed to revolutionize laboratory education through A
 3. **Student Management**: Register students and allocate questions automatically or manually
 4. **Progress Monitoring**: Track student submissions and review AI evaluations
 
-![Teacher Workflow](https://via.placeholder.com/600x350/7c3aed/ffffff?text=Teacher+Workflow+Steps)
+![Teacher Workflow](Dashboard.png)
 *Step-by-step teacher workflow visualization*
 
 #### For Students (Student View)
@@ -106,7 +113,7 @@ An intelligent platform designed to revolutionize laboratory education through A
 3. **Instant Feedback**: Receive AI-powered evaluation with detailed feedback
 4. **Progress Tracking**: Monitor your submission history and scores
 
-![Student Workflow](https://via.placeholder.com/600x350/059669/ffffff?text=Student+Experience+Flow)
+![Student Workflow](Student%20Portal.png)
 *Streamlined student experience from login to feedback*
 
 ### 🛠️ Installation & Setup
@@ -154,7 +161,7 @@ pnpm start
 
 ### 🎯 Use Cases
 
-![Use Cases Diagram](https://via.placeholder.com/700x400/8b5cf6/ffffff?text=Real-World+Use+Cases+%26+Applications)
+![Use Cases Diagram](Genarated%20Question.png)
 *Various educational scenarios where the AI Lab Question System excels*
 
 #### Educational Institutions
@@ -172,7 +179,7 @@ pnpm start
 - **Assessment Tools**: Automated evaluation reduces instructor workload
 - **Personalized Learning**: Each student gets unique questions for better engagement
 
-![Implementation Benefits](https://via.placeholder.com/600x300/10b981/ffffff?text=Implementation+Benefits+%26+ROI)
+![Implementation Benefits](Student.png)
 *Measurable benefits and return on investment for educational institutions*
 
 ### 🔧 Configuration
