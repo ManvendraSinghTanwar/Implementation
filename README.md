@@ -4,20 +4,6 @@
 
 An intelligent AI-powered platform for laboratory education with question generation, student management, and automated evaluation.
 
-### 📸 System Screenshots
-
-#### Teacher Dashboard
-![Teacher Dashboard](Dashboard.png)
-
-#### Student Portal
-![Student Portal](Student%20Portal.png)
-
-#### Generated Questions
-![Generated Questions](Genarated%20Question.png)
-
-#### Student Management
-![Student Management](Student.png)
-
 ### ✨ Key Features
 - 🎯 **AI Question Generation**: Create 4 unique equivalent lab question variations
 - 👥 **Student Management**: Easy registration and progress tracking
