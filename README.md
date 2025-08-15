@@ -2,102 +2,34 @@
 
 ## Question 1: AI Lab Question System - Unique Question Generation & Digital Assessment
 
-An intelligent platform designed to revolutionize laboratory education through AI-powered question generation, student management, and automated evaluation. Perfect for educators looking to create unique, equivalent lab questions and streamline the assessment process.
+An intelligent AI-powered platform for laboratory education with question generation, student management, and automated evaluation.
 
 ### 📸 System Screenshots
 
 #### Teacher Dashboard
 ![Teacher Dashboard](Dashboard.png)
 
-*Advanced question generation interface with AI-powered variations*
-
 #### Student Portal
 ![Student Portal](Student%20Portal.png)
-
-*Clean and intuitive student interface for question access and submission*
 
 #### Generated Questions
 ![Generated Questions](Genarated%20Question.png)
 
-*AI-powered question generation with unique variations*
-
 #### Student Management
 ![Student Management](Student.png)
-*Comprehensive analytics and progress tracking system*
 
-### 🌟 Features
+### ✨ Key Features
+- 🎯 **AI Question Generation**: Create 4 unique equivalent lab question variations
+- 👥 **Student Management**: Easy registration and progress tracking
+- 🤖 **Automated Evaluation**: AI-powered grading with detailed feedback
+- 🎨 **Modern UI**: Glass morphism design with dark/light themes
 
-#### 🎯 AI-Powered Question Generation
-- **Intelligent Variations**: Generate 4 unique but equivalent variations of any lab question
-- **Bulk Question Creation**: Create multiple unique questions for different students
-- **Smart Categories**: Organize questions by subject, difficulty, and category
-- **Uniqueness Scoring**: AI-powered assessment of question uniqueness
-
-#### 👥 Student Management
-- **Student Registration**: Easy student onboarding and management
-- **Question Allocation**: Automatic or manual question assignment to students
-- **Progress Tracking**: Monitor student submissions and completion status
-
-#### 🤖 Automated Evaluation
-- **AI-Powered Grading**: Intelligent evaluation of student answers
-- **Detailed Feedback**: Constructive feedback with strengths and improvement areas
-- **Bias-Free Assessment**: Fair and consistent evaluation across all submissions
-
-#### 📊 Assignment System
-- **Custom Assignments**: Create structured assignments with multiple questions
-- **Due Date Management**: Set and track assignment deadlines
-- **Submission Tracking**: Monitor student progress and completion rates
-
-#### 🎨 Modern UI/UX
-- **Glass Morphism Design**: Beautiful, modern interface with smooth animations
-- **Responsive Layout**: Works seamlessly across desktop and mobile devices
-- **Dark/Light Theme**: Adaptive theming for better user experience
-
-### 🚀 Technology Stack
-
-*Cutting-edge technology stack powering the AI Lab Question System*
-
+### 🚀 Tech Stack
 - **Frontend**: Next.js 15, React 19, TypeScript
-- **Styling**: Tailwind CSS with custom animations
-- **UI Components**: Radix UI primitives with shadcn/ui
-- **AI Integration**: Together AI (Llama 3.3 70B Instruct Turbo)
-- **State Management**: React hooks and context
-- **Package Manager**: pnpm
+- **AI**: Together AI (Llama 3.3 70B Instruct Turbo)
+- **Styling**: Tailwind CSS, Radix UI
 
-### 📁 Project Structure
-*Clean and organized project structure for scalability*
-
-```
-├── app/
-│   ├── globals.css          # Global styles and animations
-│   ├── layout.tsx           # Root layout component
-│   ├── page.tsx             # Main application component
-│   └── loading.tsx          # Loading component
-├── components/
-│   ├── ui/                  # Reusable UI components
-│   └── theme-provider.tsx   # Theme context provider
-├── lib/
-│   ├── ai-service.ts        # AI integration service
-│   └── utils.ts             # Utility functions
-├── public/                  # Static assets
-└── styles/                  # Additional stylesheets
-```
-
-### 🎓 How It Works
-
-*Complete system workflow from question creation to student evaluation*
-
-#### For Educators (Teacher View)
-1. **Question Creation**: Input your original lab question with metadata (subject, difficulty, category)
-2. **AI Generation**: Choose between single question variations or bulk unique questions
-3. **Student Management**: Register students and allocate questions automatically or manually
-4. **Progress Monitoring**: Track student submissions and review AI evaluations
-*Step-by-step teacher workflow visualization*
-
-#### For Students (Student View)
-1. **Question Access**: View allocated questions with clear instructions
-2. **Answer Submission**: Submit detailed answers through the intuitive interface
-3. **Instant Feedback**: Receive AI-powered evaluation with detailed feedback
+---
 4. **Progress Tracking**: Monitor your submission history and scores
 
 *Streamlined student experience from login to feedback*
@@ -193,164 +125,85 @@ private baseUrl = "https://api.together.xyz/v1"
 
 ---
 
-## Question 2: Digital Paper Reduction System
+## Question 2: Neon Exam System - Digital Paper Reduction System
 
 **Problem Statement**: Academic activities like exams, lab manuals, and projects consume large amounts of paper, causing waste (e.g., one semester exam in a university can use 80+ sheets for question papers alone).
 
 **Task**: Design an AI-powered system to minimize paper usage by securely generating, delivering, and evaluating question papers digitally. Ensure exam integrity, role-based access, and multi-device compatibility.
 
-### 🎯 System Architecture Overview
+### 🚀 Solution: Neon Exam System
+A futuristic AI-powered examination system with a stunning cyberpunk neon design. Built with Next.js, TypeScript, and powered by Meta's Llama 3.3 70B model via Together AI.
 
-The Digital Paper Reduction System is designed to completely eliminate paper usage in academic assessments while maintaining security, integrity, and accessibility.
+### ✨ Key Features
 
-### 🏗️ Core Components
+#### 🎯 Multi-Role Dashboard
+- **Admin Dashboard**: Complete exam management and analytics
+- **Faculty Dashboard**: Question creation and student monitoring
+- **Student Dashboard**: Take exams with real-time tracking
+- **Invigilator Dashboard**: Live proctoring and violation detection
 
-#### 1. AI-Powered Question Generation Engine
-- **Dynamic Question Creation**: AI generates unique questions for each student
-- **Content Variation**: Multiple versions of the same assessment with equivalent difficulty
-- **Subject-Specific Templates**: Customizable question formats for different disciplines
-- **Real-time Generation**: On-demand question creation during exam sessions
+#### 🤖 AI-Powered Question Generation
+- **Smart Question Creation**: Generate questions using Meta Llama 3.3 70B model
+- **Multiple Question Types**: Multiple choice, descriptive, and more
+- **Difficulty Levels**: Easy, Medium, Hard, Expert
+- **Subject Customization**: Any subject or topic
+- **Bulk Generation**: Create multiple questions at once
 
-#### 2. Secure Digital Distribution System
-- **Encrypted Delivery**: End-to-end encryption for question paper transmission
-- **Time-Controlled Access**: Questions released only during designated exam periods
-- **Device Authentication**: Secure login and device verification
-- **Offline Capability**: Local caching for network-independent operation
+#### 🎨 Cyberpunk Neon Design
+- **Futuristic UI**: Stunning neon glow effects and animations
+- **Dark Theme**: Eye-friendly dark mode with neon accents
+- **Responsive Design**: Works perfectly on all devices
+- **Interactive Elements**: Smooth hover effects and transitions
 
-#### 3. Multi-Device Compatibility Layer
-- **Responsive Design**: Optimized for tablets, laptops, and smartphones
-- **Cross-Platform Support**: Works on iOS, Android, Windows, macOS, and Linux
-- **Adaptive Interface**: UI adjusts based on screen size and device capabilities
-- **Touch and Keyboard Support**: Flexible input methods for different devices
+#### � Advanced Exam Features
+- **Real-time Exam Taking**: Live timer and auto-save
+- **Instant Results**: Immediate scoring and feedback
+- **Analytics Dashboard**: Comprehensive exam statistics
+- **Violation Detection**: AI-powered cheating prevention
+- **Bulk Student Management**: Easy student assignment and tracking
+- **Secure Examination Environment**: Anti-cheating measures and proctoring
 
-#### 4. Role-Based Access Control
-- **Administrator Panel**: System configuration and oversight
-- **Instructor Dashboard**: Question creation and exam management
-- **Student Interface**: Exam taking and submission portal
-- **Proctor Console**: Real-time monitoring and intervention tools
+### 🚀 Tech Stack
+- **Frontend**: Next.js 15, React 19, TypeScript
+- **Styling**: Tailwind CSS, Radix UI Components
+- **AI Integration**: Together AI (Llama-3.3-70B-Instruct-Turbo-Free)
+- **Icons**: Lucide React
+- **Development**: ESLint, PostCSS
 
-#### 5. AI-Powered Evaluation System
-- **Automated Grading**: Intelligent assessment of various question types
-- **Plagiarism Detection**: AI-powered similarity analysis
-- **Performance Analytics**: Detailed insights into student and class performance
-- **Feedback Generation**: Personalized comments and improvement suggestions
+### 🎮 Role-Specific Features
 
-### 🔒 Security & Integrity Features
+#### 👨‍💼 Admin Dashboard
+- System-wide analytics and monitoring
+- User management and permissions
+- Violation detection and security alerts
+- Comprehensive reporting tools
 
-#### Exam Security
-- **Browser Lockdown**: Prevents access to external resources during exams
-- **Screen Recording Detection**: Identifies and prevents unauthorized recording
-- **Tab Switching Monitoring**: Tracks and restricts navigation attempts
-- **Biometric Verification**: Optional fingerprint or facial recognition
+#### 👨‍🏫 Faculty Dashboard
+- Question bank management
+- Exam creation and scheduling
+- Student performance tracking
+- Grade management
 
-#### Data Protection
-- **Blockchain Integration**: Immutable record of all exam activities
-- **Zero-Knowledge Architecture**: Encrypted data that only authorized users can decrypt
-- **Audit Trails**: Comprehensive logging of all system interactions
-- **GDPR Compliance**: Privacy-first design with data protection by default
+#### 👨‍� Student Dashboard
+- Available examinations
+- Exam history and results
+- Progress tracking
+- Performance analytics
 
-### 📱 System Flow Diagram
+#### 👁️ Invigilator Dashboard
+- Live exam monitoring
+- Real-time violation alerts
+- Student behavior tracking
+- Incident reporting
 
-```
-[Admin] → [System Config] → [AI Question Generator]
-   ↓             ↓                    ↓
-[Role Setup] → [Exam Creation] → [Question Bank]
-   ↓             ↓                    ↓
-[User Auth] → [Secure Distribution] → [Student Devices]
-   ↓             ↓                    ↓
-[Monitoring] → [Real-time Proctoring] → [Answer Submission]
-   ↓             ↓                    ↓
-[AI Evaluation] → [Results Analysis] → [Digital Certificates]
-```
-
-### 🎯 Environmental Impact
-
-#### Paper Reduction Metrics
+### 🎯 Environmental Impact & Paper Reduction
 - **Estimated Savings**: 80+ sheets per exam × number of students
 - **Annual Impact**: Thousands of sheets saved per academic year
-- **Carbon Footprint**: Significant reduction in paper production and transportation
+- **Carbon Footprint**: Significant reduction in paper production
 - **Cost Efficiency**: Reduced printing, storage, and distribution costs
-
-#### Sustainability Features
 - **Digital Archives**: Permanent storage without physical space requirements
-- **Cloud Infrastructure**: Optimized for energy-efficient computing
-- **Remote Access**: Reduces transportation needs for exam administration
-- **Recyclable Devices**: Encourages use of existing student devices
 
-### 🔧 Technical Implementation
-
-#### AI Integration
-```python
-class QuestionGenerator:
-    def generate_unique_questions(self, base_template, student_count):
-        # AI-powered question variation
-        variations = []
-        for i in range(student_count):
-            variation = self.ai_model.generate_variation(
-                template=base_template,
-                uniqueness_threshold=0.8,
-                difficulty_level="equivalent"
-            )
-            variations.append(variation)
-        return variations
-```
-
-#### Security Layer
-```javascript
-class ExamSecurity {
-    initializeSecureSession() {
-        // Browser lockdown
-        this.disableRightClick();
-        this.preventTabSwitching();
-        this.enableScreenMonitoring();
-        
-        // Biometric verification
-        this.requestBiometricAuth();
-    }
-}
-```
-
-### 📊 Expected Outcomes
-
-#### Quantitative Benefits
-- **Paper Reduction**: 90-95% decrease in paper usage
-- **Cost Savings**: 60-70% reduction in printing and administrative costs
-- **Time Efficiency**: 50% faster exam distribution and collection
-- **Error Reduction**: 80% fewer human errors in grading
-
-#### Qualitative Improvements
-- **Enhanced Security**: Multiple layers of protection against cheating
-- **Better Accessibility**: Support for students with disabilities
-- **Real-time Feedback**: Immediate results and performance insights
-- **Scalability**: Easy expansion to accommodate growing student populations
-
-### 🎯 Role of AI in the System
-
-AI plays a crucial role in multiple aspects of the Digital Paper Reduction System:
-
-#### 1. Question Generation
-- **Natural Language Processing**: Understands context and subject matter
-- **Content Variation**: Creates semantically equivalent but syntactically different questions
-- **Difficulty Calibration**: Maintains consistent difficulty levels across variations
-- **Quality Assurance**: Validates generated content for accuracy and clarity
-
-#### 2. Evaluation and Grading
-- **Answer Analysis**: Understands various forms of correct answers
-- **Partial Credit Assignment**: Intelligent scoring for partially correct responses
-- **Plagiarism Detection**: Identifies potential academic dishonesty
-- **Performance Prediction**: Forecasts student success based on historical data
-
-#### 3. Security Enhancement
-- **Behavioral Analysis**: Detects unusual patterns during exam sessions
-- **Fraud Detection**: Identifies potential cheating attempts
-- **Risk Assessment**: Evaluates security threats in real-time
-- **Adaptive Authentication**: Adjusts security measures based on risk levels
-
-#### 4. Personalization
-- **Learning Path Optimization**: Suggests study materials based on performance
-- **Adaptive Testing**: Adjusts question difficulty based on student responses
-- **Feedback Customization**: Provides personalized improvement recommendations
-- **Accessibility Features**: Adapts content for students with special needs
+---
 
 ---
 
