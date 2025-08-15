@@ -20,9 +20,6 @@ An intelligent AI-powered platform for laboratory education with question genera
 - **🌐 Live Demo**: [AI Lab Question System Live](https://v0-image-analysis-tau-amber-txp1uzz754.vercel.app/)
 
 ---
-4. **Progress Tracking**: Monitor your submission history and scores
-
-*Streamlined student experience from login to feedback*
 
 ### 🛠️ Installation & Setup
 
@@ -124,6 +121,10 @@ private baseUrl = "https://api.together.xyz/v1"
 ### 🚀 Solution: Neon Exam System
 A futuristic AI-powered examination system with a stunning cyberpunk neon design. Built with Next.js, TypeScript, and powered by Meta's Llama 3.3 70B model via Together AI.
 
+### 🔗 Links
+- **📚 Repository**: [GitHub - Neon Exam System](https://github.com/ManvendraSinghTanwar/neon-exam-system)
+- **🌐 Live Demo**: [Neon Exam System Live](https://neon-exam-system.vercel.app/)
+
 ### ✨ Key Features
 
 #### 🎯 Multi-Role Dashboard
@@ -159,10 +160,6 @@ A futuristic AI-powered examination system with a stunning cyberpunk neon design
 - **AI Integration**: Together AI (Llama-3.3-70B-Instruct-Turbo-Free)
 - **Icons**: Lucide React
 - **Development**: ESLint, PostCSS
-
-### 🔗 Links
-- **📚 Repository**: [GitHub - Neon Exam System](https://github.com/ManvendraSinghTanwar/neon-exam-system)
-- **🌐 Live Demo**: [Neon Exam System Live](https://neon-exam-system.vercel.app/)
 
 ### 🎮 Role-Specific Features
 
